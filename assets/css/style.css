@@ -11,6 +11,10 @@
        
 }
 
+main, footer {
+    margin: 0px 30px;
+}
+
 h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
@@ -52,4 +56,24 @@ header {
 
 .nav__links li a:hover {
     color: rgb(10, 97, 112);   
+}
+
+main div {
+    margin: 100px 0px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.contact-me li {
+    display: inline-block;
+    padding: 0px 20px 0px 0px;
+}
+
+#coming_soon {
+    width: 500px;
+    height: auto;
 }
