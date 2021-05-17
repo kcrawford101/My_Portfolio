@@ -4,7 +4,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: rgb(10, 97, 112);    
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    color: #edf0f1; 
+    background-color: rgb(10, 97, 112);
+       
 }
 
 h1 {
