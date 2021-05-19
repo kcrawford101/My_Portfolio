@@ -16,7 +16,7 @@ main, footer {
 h1 {
     font-family: "Oswald", sans-serif;
     font-weight: 500;
-    font-size: 40px;
+    font-size: 50px;
     color: #edf0f1;
     background-color: #24252a;             
 }
@@ -48,7 +48,9 @@ header {
     justify-content:space-between;
     align-items: center;
     padding: 30px;
+    margin-bottom: 20px;
     background-color: #24252a;
+    box-shadow: 5px 10px 5px black;
 }
 
 header nav {
