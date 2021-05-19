@@ -71,14 +71,31 @@ header {
     font-size: 1.3em;     
 }
 
-.box1 img {
+.project-box {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.box2 p {
     display: block;
-    border: 2px solid  #24252a;
+    font-weight: 400;
+    font-size: 20px;
     background-color: #24252a;
     box-shadow: 5px 10px 5px black;
-    padding: 50px 50px; 
-    margin: auto auto;   
+    padding: 75px 100px; 
+    margin: 10px;   
 }
+
+.box2 p a {
+    transition: all 0.3s ease 0s;
+    background-color: #24252a;
+    text-decoration: none;    
+}
+
+.box2 p a:hover {
+    color: rgb(10, 97, 112);   
+}
+
 
 section {
     margin: 0px 0pc 30px ;
