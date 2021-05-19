@@ -24,7 +24,7 @@ h1 {
 h2, h3 {
     font-family: "Oswald", sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     color: #edf0f1;
           
 }
@@ -36,6 +36,11 @@ li a {
     color: #edf0f1;
     text-decoration: none;
 }
+#myAvatar {
+    width: 200px;
+    height: auto;    
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -64,22 +69,33 @@ header {
     color: rgb(10, 97, 112);   
 }
 
+.myWork {
+    margin: 50px 50px;
+}
+
+.myWork h2{
+    text-align: center;
+}
+
 .box1 p {
-    border: 2px solid  #24252a;
     background-color: #24252a;
     box-shadow: 5px 10px 5px black;
-    font-size: 1.3em;     
+    font-size: 25px;
+    margin: 2px;
+    padding: 2px;
+    width: fit-content;
+    height: fit-content; 
+   
 }
 
 .project-box {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .box2 p {
     display: block;
-    font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     background-color: #24252a;
     box-shadow: 5px 10px 5px black;
     padding: 75px 100px; 
@@ -110,25 +126,33 @@ span {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    background-color: #24252a;
+    box-shadow: 5px 10px 5px black;
+    width: fit-content;
+    
+}
+
+.contact-me ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px 0px;
     background-color: #24252a;    
 }
 
-.contact-me li {
+.contact-me li {    
     display: inline-block;
     padding: 0px 20px;
     background-color: #24252a;
+    
 }
 
 .contact-me li a {
     transition: all 0.3s ease 0s;
-    background-color: #24252a;    
+    background-color: #24252a;
+    font-size: 20px;    
 }
 
 .contact-me li a:hover {
     color: rgb(10, 97, 112);   
-}
-
-#coming_soon {
-    width: 500px;
-    height: auto;
 }
