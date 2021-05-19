@@ -67,14 +67,17 @@ header {
 .box1 p {
     border: 2px solid  #24252a;
     background-color: #24252a;
-    box-shadow: 5px 10px 5px black;     
+    box-shadow: 5px 10px 5px black;
+    font-size: 1.3em;     
 }
 
 .box1 img {
+    display: block;
     border: 2px solid  #24252a;
     background-color: #24252a;
     box-shadow: 5px 10px 5px black;
-    width: ;     
+    padding: 50px 50px; 
+    margin: auto auto;   
 }
 
 section {
@@ -89,12 +92,23 @@ span {
 .contact-me {
     display: flex;
     justify-content: flex-start;
-    align-items: center;    
+    align-items: center;
+    background-color: #24252a;    
 }
 
 .contact-me li {
     display: inline-block;
-    padding: 0px 20px 0px 0px;
+    padding: 0px 20px;
+    background-color: #24252a;
+}
+
+.contact-me li a {
+    transition: all 0.3s ease 0s;
+    background-color: #24252a;    
+}
+
+.contact-me li a:hover {
+    color: rgb(10, 97, 112);   
 }
 
 #coming_soon {
