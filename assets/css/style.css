@@ -15,16 +15,24 @@ main, footer {
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 40px;
     color: #edf0f1;
     background-color: #24252a;       
 }
 
+h2, h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: #edf0f1;
+          
+}
+
 li a {
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 25px;
     color: #edf0f1;
     text-decoration: none;
 }
@@ -59,16 +67,24 @@ header {
 .box1 p {
     border: 2px solid  #24252a;
     background-color: #24252a;
+    box-shadow: 5px 10px 5px black;     
+}
+
+.box1 img {
+    border: 2px solid  #24252a;
+    background-color: #24252a;
+    box-shadow: 5px 10px 5px black;
+    width: ;     
+}
+
+section {
+    margin: 0px 0pc 30px ;
 }
 
 span {
     background-color: #24252a;
     font-weight: 500;
 }
-
-/* main div {
-    margin: 100px 0px;
-} */
 
 .contact-me {
     display: flex;
