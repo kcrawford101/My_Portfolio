@@ -164,3 +164,17 @@ span {
 .contact-me li a:hover {
     color: rgb(10, 97, 112);   
 }
+
+@media screen and (max-width: 992px) {
+    header nav, .box2{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    header nav, .box2 {
+        width: 100%;
+    }
+    
+}
